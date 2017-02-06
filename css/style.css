@@ -269,6 +269,36 @@ header .header-content h4{
     font-size: 16px;
     }
 }
+#skills ul {
+    -webkit-padding-start: 1em;
+}
+#skills li {
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+}
+#skills .sk-content {
+    float: left;
+}
+#skills .logo {
+    float: right;
+    max-width: 80px;
+}
+@media (min-width: 568px) {
+    #skills li {
+        width: 49%;
+    }
+}
+@media (min-width: 768px){
+    #skills li {
+        padding: 25px;
+    }
+}
+@media (min-width: 996px){
+    #skills li {
+        width: 33%;
+    }
+}
 .story-container {
     background-color: #ffffff;
 }
