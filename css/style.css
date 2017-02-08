@@ -307,7 +307,7 @@ header .header-content h4{
 }
 .timeline .story-box {
     width: 100%;
-    padding: 0px 30px 50px 110px;
+    padding: 0px 30px 30px 110px;
 }
 .timeline .story-photo {
     width: 65px;
@@ -319,8 +319,8 @@ header .header-content h4{
     box-shadow: 0px 0px 20px rgba(0, 0, 0, .9);
 }
 .timeline h3 {
-    font-family: 'Old Standard TT', serif; 
-    font-size: 35px;
+    font-family: 'Lora', serif;
+    font-size: 28px;
     font-weight: 800;
     padding: 0px;
     margin: 0px;
