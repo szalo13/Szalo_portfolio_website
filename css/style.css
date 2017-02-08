@@ -379,6 +379,14 @@ header .header-content h4{
         position: relative;
         padding: 0px 80px 80px 80px;
     }
+    .timeline li:nth-child(even) .story-box {
+        float: left;
+        text-align: right;
+    }
+    .timeline li:nth-child(odd) .story-box {
+        float: right;
+        text-align: left;
+    }
     .timeline .story-line:before {
         display: block;
         position: absolute;
@@ -403,14 +411,6 @@ header .header-content h4{
         min-height: 0px;
         height:140px !important;
     }
-    .story-right {
-        float: right;
-        text-align: left;
-    }
-    .story-left {
-        float: left;
-        text-align: right;
-    }  
 }
 .contact-content {
     position: relative;
